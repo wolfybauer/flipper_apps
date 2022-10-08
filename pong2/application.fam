@@ -1,0 +1,11 @@
+App(
+    appid="pong2",
+    name="Pong2",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="pong_app",
+    #cdefines=["APP_GUI_TEST"],
+    #fap_icon="hello_world_10x10.png",
+    requires=["gui"],
+    stack_size=2 * 1024,
+    order=20,
+)
